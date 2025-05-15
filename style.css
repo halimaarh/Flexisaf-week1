@@ -30,3 +30,30 @@ h2 {
   line-height: 1.8;
   font-size: 16px;
 }
+
+.explanation {
+  margin-top: 30px;
+  padding: 20px;
+  background: #eef6ff;
+  border-left: 5px solid #007bff;
+  border-radius: 8px;
+}
+
+.explanation p {
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+.github-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #24292e;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.github-btn:hover {
+  background: #444c56;
+}
